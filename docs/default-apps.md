@@ -54,7 +54,7 @@
     <td><img src="../apps/qq/icon.svg" width="100"></td><td>QQ</td>
   </tr>
   <tr>
+    <td><img src="../apps/proteus-8.8/icon.svg" width="100"></td><td>Proteus 8</td>
     <td><img src="../icons/windows.svg" width="100"></td><td>Windows<br>(Full RDP session)</td>
-    <td>&nbsp;</td><td>&nbsp;</td>
   </tr>
 </table>
