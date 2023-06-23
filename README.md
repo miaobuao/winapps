@@ -1,7 +1,5 @@
 # WinApps for Linux
 
-***Looking for maintainers, see: https://github.com/Fmstrat/winapps/issues/269***
-
 Run Windows apps such as Microsoft Office/Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
 
 <img src="demo/demo.gif" width=1000>
@@ -89,13 +87,13 @@ The best solution for running a VM as a subsystem for WinApps would be KVM. KVM 
 
 - [Creating a Virtual Machine in KVM](docs/KVM.md)
 
-If you already have a Virtual Machine or server you wish to use with WinApps, you will need to merge `kvm/RDPApps.reg` into the VM's Windows Registry. If this VM is in KVM and you want to use auto-IP detection, you will need to name the machine `RDPWindows`. Directions for both of these can be found in the guide linked above.
+If you already have a Virtual Machine or server you wish to use with WinApps, you will need to merge `install/RDPApps.reg` into the VM's Windows Registry. If this VM is in KVM and you want to use auto-IP detection, you will need to name the machine `RDPWindows`. Directions for both of these can be found in the guide linked above.
 
 ### Step 2: Download the repo and prerequisites
 To get things going, use:
 ``` bash
 sudo apt-get install -y freerdp2-x11
-git clone https://github.com/Fmstrat/winapps.git
+git clone https://github.com/miaobuao/winapps.git
 cd winapps
 ```
 ### Step 3: Creating your WinApps configuration file
