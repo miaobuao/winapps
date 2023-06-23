@@ -53,6 +53,17 @@ RDP_PASS="MyWindowsPassword"
 
 #MULTIMON="true"
 #DEBUG="true"
+#VIRT_MACHINE_NAME="machine-name"
+#VIRT_NEEDS_SUDO="true"
+#RDP_SECRET="account"
+```
+
+#### Using Secret Tool for RDP_PASS
+
+You can add the RDP password for lookup using secret tool. Label can be whatever you want it to be.
+
+```bash
+secret-tool store --label='winapps' winapps account
 ```
 
 This will be useful if you wanna know more about keyboard layout: [FreeRDP-User-Manual#input](https://github.com/awakecoding/FreeRDP-Manuals/blob/master/User/FreeRDP-User-Manual.markdown#input).
