@@ -111,6 +111,9 @@ RDP_PASS="MyWindowsPassword"
 #MULTIMON="true"
 #DEBUG="true"
 ```
+
+This will be useful if you wanna know more about keyboard layout: [FreeRDP-User-Manual#input](https://github.com/awakecoding/FreeRDP-Manuals/blob/master/User/FreeRDP-User-Manual.markdown#input).
+
 The username and password should be a full user account and password, such as the one created when setting up Windows or a domain user. It cannot be a user/PIN combination as those are not valid for RDP access.
 
 Options:
